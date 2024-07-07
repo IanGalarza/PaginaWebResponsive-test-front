@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <script src="https://kit.fontawesome.com/30e6cd4d21.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href ="style.css">  
+   
+</head>
+<body>
+    
+    <header class = "header">
+        <div class="menu container">
+            <a href="#" class = "logo">Tienda</a>
+            <input type = "checkbox" id = "menu" />
+            <label for="menu">
+                <img src="images/menu.png" class = "menu-icono" alt="menu">
+            </label>
+            <nav class = "navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <button class = "switch" id="switch">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class= "fas fa-moon"></i></span>
+                    </button>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class = "submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id ="vaciar-carrito" class = "btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "header-content container">
+
+            <div class = "header-txt">
+                <span>Ofertas</span>
+                <h1>Frutas y Verduras</h1>
+                <p>
+                    Se considera que las frutas y verduras son las partes comestibles de las plantas 
+                    (por ejemplo, estructuras seminíferas, flores, yemas, hojas, tallos, brotes y raíces), 
+                    tanto cultivadas como silvestres, en estado crudo o con un procesamiento mínimo.
+                </p>
+                <a href="#" class="btn-1">Mas informacion</a>
+            </div>
+            <div class="header-img">
+                <img src ="images/rigth.png" alt="Imagen">
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section class ="informacion container">
+
+        <div class="informacion-content">
+
+            <div class = "informacion-1">
+                <img src="images/i1.svg" alt="Imagen">
+                <h3>Disponibilidad</h3>
+                <p>
+                    Abierto las 24 horas todos los dias de la semana.
+                </p>
+            </div>
+
+            <div class = "informacion-1">
+                <img src="images/i2.svg" alt="Imagen">
+                <h3>Facil Pago</h3>
+                <p>
+                    Numerosos medios de pago para una comoda compra.
+                </p>
+            </div>
+
+            <div class = "informacion-1">
+                <img src="images/i3.svg" alt="Imagen">
+                <h3>Entregas Rapidas</h3>
+                <p>
+                    Entregas en el momento de realizar el cobro.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="oferts container">
+
+        <div class ="ofert-1">
+            <img src="images/f1.png" alt="Imagen">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+
+        <div class ="ofert-1">
+            <img src="images/f2.png" alt="Imagen">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+
+        <div class ="ofert-1">
+            <img src="images/f3.png" alt="Imagen">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+
+        <div class ="ofert-1">
+            <img src="images/f4.png" alt="Imagen">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+
+    </section>
+
+    
+    <main class="products container" id="lista-1">
+        <h2>Productos destacados</h2>
+
+        <div class ="product-content">
+
+            <div class="product">
+                <img src="images/pr1.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$15.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr2.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$20.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="2">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr3.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$20.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="3">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr4.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$35.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="4">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr5.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$10.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="5">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr6.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$40.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="6">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr7.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$25.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="7">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr8.png" alt="Imagen">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$15.00</p>
+                    <a href="#" class = "agregar-carrito btn-2" data-id="8">Agregar</a>
+                </div>
+            </div>
+    
+        </div>
+
+
+    </main>
+
+    <section class="service">
+
+        <div class="service-1">
+            <img class="store" src="images/1.png" alt="Imagen">
+        </div>
+
+        <div class="service-2">
+            <img class="store" src="images/2.png" alt="Imagen">
+        </div>
+
+        <div class="service-3">
+            <img class="store" src="images/3.png" alt="Imagen">
+        </div>
+
+    </section>
+
+
+    <section class="contact container">
+
+        <form>
+            <input type="email" placeholder="Correo">
+            <input type="submit" class ="btn-3">
+        </form>
+
+    </section>
+
+    <footer class ="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Iorem</h3>
+                <ul>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                </ul>
+            </div>
+
+
+            <div class="link">
+                <h3>Iorem</h3>
+                <ul>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Iorem</h3>
+                <ul>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Iorem</h3>
+                <ul>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                    <li><a href="#">Iorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src = "script.js" > </script>
+</body>
+</html>
+
+
